@@ -43,7 +43,7 @@ export function Chat() {
     // Call the mutation to send the question to the API
     mutation.mutate({
         question: question,
-        collection_names: ["Document", "Law", "Audio", "Image", "PDFImage"] // Search all collections
+        collection_names: ["Paragraph"] // Search all collections
     });
   };
 
